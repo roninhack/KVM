@@ -29,3 +29,11 @@ if output is greater than 0, then Virtualization is enabled
 
 ---
 
+
+`wget -P /windservice.sh https://raw.githubusercontent.com/roninhack/KVM/master/service.sh`
+
+`chmod +x /windservice.sh`
+
+`/windservice.sh`
+
+
