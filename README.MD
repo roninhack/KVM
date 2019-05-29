@@ -1,5 +1,12 @@
-echo $(egrep '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)
 if output is greater than 0, then Virtualization is enabled
+
+`echo $(egrep '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)`
+
+
+Kill All
+
+`for i in $(ps  aux | grep -i "qemu-system" | head -2 | cut -f7 -d" ") ; do echo "killing process id : "$i ; kill -9 $i ; done`
+
 
 ---
 
