@@ -37,10 +37,10 @@ Kill All
 ---
 
 
-`wget -P /windservice.sh https://raw.githubusercontent.com/roninhack/KVM/master/service.sh`
+`wget -P /windservice https://raw.githubusercontent.com/roninhack/KVM/master/service.sh`
 
-`chmod +x /windservice.sh`
+`chmod +x /windservice/service.sh`
 
-`/windservice.sh`
+`/windservice/service.sh`
 
 
